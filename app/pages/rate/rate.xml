@@ -1,0 +1,26 @@
+<page xmlns="http://www.nativescript.org/tns.xsd"       
+      xmlns:rate="pages/rate"
+      navigatedTo="navigatedTo" 
+      actionBarHidden="true"
+      backgroundSpanUnderStatusBar="true">
+    
+    <stack-layout orientation="vertical">
+        <stack-layout class="details-container"> 
+            <grid-layout columns="90, *" rows="80" class="details-container-inner">
+                <image col="0" src="{{ speaker.pic, '~/images/' + speaker.pic, false }}" />
+                <stack-layout col="1" class="details-container-session">
+                    <label text="{{ name }}" class="h2" />
+                    <label text="{{ 'Presented By: ' + speaker.name }}" class="h2" />
+                    <label text="{{ location }}" class="h2" />
+                </stack-layout>
+            </grid-layout>
+            <stack-layout class="session-rating">
+                <grid-layout columns="*" rows="auto" class="session-rating-title">
+                    <label text="Session Eval" col="0" />
+                    <Button text="&#xf060;  OK" col="0" class="fa back-arrow" tap="back" />
+                </grid-layout>
+                <rate:rating-grid />
+            </stack-layout>
+        </stack-layout>
+     </stack-layout>
+</page>

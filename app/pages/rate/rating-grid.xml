@@ -1,0 +1,27 @@
+<stack-layout class="session-rating-grid">
+    <grid-layout columns="*, 50" rows="auto" class="{{ rating === 'excellent' ? 'radio-selected' : '' }}" >
+        <label id="excellent" text="5 - Excellent" col="0" tap="rate" />
+        <label visibility="{{ rating === 'excellent' ? 'visible' : 'collapsed' }}" class="fa radio" text="&#xf00c;" col="1" />
+    </grid-layout>
+    <stack-layout class="hr" />
+    <grid-layout columns="*, 50" rows="auto" class="{{ rating === 'verygood' ? 'radio-selected' : '' }}" >
+        <label id="verygood" text="4 - Very Good" tap="rate" />
+        <label class="fa radio" text="&#xf00c;" col="1" visibility="{{ rating === 'verygood' ? 'visible' : 'collapsed' }}" />
+    </grid-layout>
+    <stack-layout class="hr" />
+    <grid-layout columns="*, 50" rows="auto" class="{{ rating === 'good' ? 'radio-selected' : '' }}" >
+        <label id="good" text="3 - Good" tap="rate" />
+        <label class="fa radio" text="&#xf00c;" col="1" visibility="{{ rating === 'good' ? 'visible' : 'collapsed' }}" />
+    </grid-layout>
+    <stack-layout class="hr" />
+    <grid-layout columns="*, 50" rows="auto" class="{{ rating === 'ok' ? 'radio-selected' : '' }}" >
+        <label id="ok" text="2 - OK" tap="rate" />
+        <label class="fa radio" text="&#xf00c;" col="1" visibility="{{ rating === 'ok' ? 'visible' : 'collapsed' }}" />
+    </grid-layout>
+    <stack-layout class="hr" />
+    <grid-layout columns="*, 50" rows="auto" class="{{ rating === 'needsimprovement' ? 'radio-selected' : '' }}" >
+        <label id="needsimprovement" text="1 - Needs Improvement" tap="rate" />
+        <label class="fa radio" text="&#xf00c;" col="1" visibility="{{ rating === 'needsimprovement' ? 'visible' : 'collapsed' }}" />
+    </grid-layout>
+    <stack-layout class="hr" />
+</stack-layout>

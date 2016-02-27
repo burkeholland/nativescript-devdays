@@ -1,0 +1,18 @@
+var frame = require('ui/frame');
+var viewModel;
+var navigatedTo = function (args) {
+    var page = args.object;
+    viewModel = page.navigationContext;
+    page.bindingContext = viewModel;
+};
+exports.navigatedTo = navigatedTo;
+var rate = function (args) {
+    var rating = args.view.id;
+    viewModel.set('rating', rating);
+};
+exports.rate = rate;
+var back = function (args) {
+    frame.topmost().goBack();
+};
+exports.back = back;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmF0ZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInJhdGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUEsSUFBWSxLQUFLLFdBQU0sVUFBVSxDQUFDLENBQUE7QUFFbEMsSUFBSSxTQUFxQixDQUFDO0FBRTFCLElBQUksV0FBVyxHQUFHLFVBQUMsSUFBZTtJQUM5QixJQUFJLElBQUksR0FBUyxJQUFJLENBQUMsTUFBTSxDQUFDO0lBQzdCLFNBQVMsR0FBZSxJQUFJLENBQUMsaUJBQWlCLENBQUM7SUFFL0MsSUFBSSxDQUFDLGNBQWMsR0FBRyxTQUFTLENBQUM7QUFDcEMsQ0FBQztBQVdRLG1CQUFXLGVBWG5CO0FBRUQsSUFBSSxJQUFJLEdBQUcsVUFBQyxJQUFlO0lBQ3ZCLElBQUksTUFBTSxHQUFHLElBQUksQ0FBQyxJQUFJLENBQUMsRUFBRSxDQUFDO0lBQzFCLFNBQVMsQ0FBQyxHQUFHLENBQUMsUUFBUSxFQUFFLE1BQU0sQ0FBQyxDQUFDO0FBQ3BDLENBQUM7QUFNcUIsWUFBSSxRQU56QjtBQUVELElBQUksSUFBSSxHQUFHLFVBQUMsSUFBZTtJQUN2QixLQUFLLENBQUMsT0FBTyxFQUFFLENBQUMsTUFBTSxFQUFFLENBQUM7QUFDN0IsQ0FBQztBQUUyQixZQUFJLFFBRi9CO0FBRWlDIn0=

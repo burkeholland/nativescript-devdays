@@ -1,0 +1,162 @@
+[
+    {
+        "sessionId": 1,
+        "time": "9:00 AM",
+        "day": 1,
+        "location": "Republic A",
+        "speakerId": 1,
+        "speakerName": "John Papa",
+        "sessionName": "All about Angular",
+        "sessionDesc": "This 20 minute tour of Angular will provide you applicable ideas for using Angular on your projects.  You'll see demos and sample reusable code for every day use.  "
+    },
+    {
+        "sessionId": 2,
+        "time": "10:00 AM",
+        "day": 1,
+        "location": "Republic A",
+        "speakerId": 2,
+        "speakerName": "Brian Clark",
+        "sessionName": "How to get around Security",
+        "sessionDesc": "This popular session provides insights on Secure Code and avoiding the top 5 isssues encountered during a security audit."
+    },
+    {
+        "sessionId": 3,
+        "time": "11:00 AM",
+        "day": 1,
+        "location": "Republic A",
+        "speakerId": 3,
+        "speakerName": "Dave Solomon",
+        "sessionName": "The essense of Gulp",
+        "sessionDesc": "Sit back, enjoy a soda, and learn about using Gulp on your WDPR T projects.   This session will bubble up ideas and innovation. "
+    },
+    {
+        "sessionId": 4,
+        "time": "3:00 PM",
+        "day": 1,
+        "location": "Republic B",
+        "speakerId": 4,
+        "speakerName": "David Elliott",
+        "sessionName": "My life with Node",
+        "sessionDesc": "Listen to best practices, key learnings, and applications of Node on Disney projects.   You won't want to miss this session!"
+    },
+    {
+        "sessionId": 5,
+        "time": "1:00 PM",
+        "day": 1,
+        "location": "Republic B",
+        "speakerId": 5,
+        "speakerName": "Michael Callaghan",
+        "sessionName": "Sparking ideas with Ionic",
+        "sessionDesc": "Deploying multiplatform applications in mobile?   Attend this session to see Ionic in action -- you'll positively find new things in this session.   "
+    },
+    {
+        "sessionId": 6,
+        "time": "2:00 PM",
+        "day": 1,
+        "location": "Republic B",
+        "speakerId": 6,
+        "speakerName": "Troy Hamilton",
+        "sessionName": "SQL Server - To be not to be?",
+        "sessionDesc": "When to use SQL Server on your application is the key item being covered.  See key queries and learnings from recent projects in this session.  JOIN us!"
+    },
+    {
+        "sessionId": 7,
+        "time": "8:00 AM",
+        "day": 1,
+        "speakerId": 7,
+        "location": "Ballroom of the Americas",
+        "speakerName": "Tilak Mandadi",
+        "sessionName": "Keynote - Tilaks Top 10",
+        "sessionDesc": "Hear directly from Tilak about the top 10 things that WDPR T Developers should know.    This presentation will be live cast from Florida for all remote attendees to be able to participate in Q&A.   "
+    },
+    {
+        "sessionId": 8,
+        "time": "12:00 PM",
+        "day": 1,
+        "location": "Ballroom of the Americas",
+        "speakerId": 8,
+        "speakerName": "Sean Treat",
+        "sessionName": "Speed Meeting during Florida Lunch",
+        "sessionDesc": "Sign up via Yammer and the Expo Sign up board  in today to participate in Speed Meeting with WDPR T leaders, hosted by Sean.  You'll meet 3 leaders in 30 minutes (10 minutes a person) and have a spontaneous discussion with what's top of mind.   "
+    },
+    {
+        "sessionId": 9,
+        "time": "9:00 AM",
+        "day": 2,
+        "location": "Republic A",
+        "speakerId": 1,
+        "speakerName": "John Papa",
+        "sessionName": "Angular Deep Dive",
+        "sessionDesc": "Serious programming stuff."
+    },
+    {
+        "sessionId": 10,
+        "time": "10:00 AM",
+        "day": 2,
+        "location": "Republic A",
+        "speakerId": 2,
+        "speakerName": "Brian Clark",
+        "sessionName": "Pair Programming",
+        "sessionDesc": "ADDITIONAL PRESENTATION of same content from day 1.  Did you miss this? This popular session provides insights on Secure Code and avoiding the top 5 isssues encountered during a security audit."
+    },
+    {
+        "sessionId": 11,
+        "time": "11:00 AM",
+        "day": 2,
+        "speakerId": 3,
+        "location": "Republic A",
+        "speakerName": "Dave Solomon",
+        "sessionName": "How to code and stuff.",
+        "sessionDesc": "ADDITIONAL PRESENTATION of same content from day 1.  Did you miss this? Sit back, enjoy a soda, and learn about using Gulp on your WDPR T projects.   This session will bubble up ideas and innovation. "
+    },
+    {
+        "sessionId": 12,
+        "time": "3:00 PM",
+        "day": 2,
+        "location": "Republic B",
+        "speakerId": 4,
+        "speakerName": "David Elliott",
+        "sessionName": "Code, Code and more Code.",
+        "sessionDesc": "ADDITIONAL PRESENTATION of same content from day 1.  Did you miss this? Listen to best practices, key learnings, and applications of Node on Disney projects.   You won't want to miss this session!"
+    },
+    {
+        "sessionId": 13,
+        "time": "1:00 PM",
+        "day": 2,
+        "location": "Republic B",
+        "speakerId": 5,
+        "speakerName": "Michael Callaghan",
+        "sessionName": "Sparkling tonic & ideas with Ionic",
+        "sessionDesc": "ADDITIONAL PRESENTATION of same content from day 1.  Did you miss this? Deploying multiplatform applications in mobile?   Attend this session to see Ionic in action -- you'll positively find new things in this session.   "
+    },
+    {
+        "sessionId": 14,
+        "time": "2:00 PM",
+        "day": 2,
+        "location": "Republic B",
+        "speakerId": 6,
+        "speakerName": "Troy Hamilton",
+        "sessionName": "SQL Server - To be not to be?",
+        "sessionDesc": "ADDITIONAL PRESENTATION of same content from day 1.  Did you miss this? When to use SQL Server on your application is the key item being covered.  See key queries and learnings from recent projects in this session.  JOIN us!"
+    },
+    {
+        "sessionId": 15,
+        "time": "1:00 PM",
+        "day": 2,
+        "location": "Republic A",
+        "speakerId": 9,
+        "speakerName": "Diane Schaffer",
+        "sessionName": "A history of DevDays",
+        "sessionDesc": "Attend this afternoon keynote presentation, broadcast live from Florida that provides insights on the past 10 years of DevDays and applications of concepts that came from DevDays and are now applied in projects.   "
+    },
+    {
+        "sessionId": 16,
+        "time": "12:00 PM",
+        "day": 2,
+        "location": "Ballroom of the Americas",
+        "speakerId": 8,
+        "speakerName": "Sean Treat",
+        "sessionName": "Speed Meeting during Florida Lunch",
+        "sessionDesc": "ADDITIONAL OPPORTUNITY TO NETWORK:  Sign up via Yammer and the Expo Sign up board  in today to participate in Speed Meeting with WDPR T leaders, hosted by Sean.  You'll meet 3 leaders in 30 minutes (10 minutes a person) and have a spontaneous discussion with what's top of mind.   "
+    }
+]

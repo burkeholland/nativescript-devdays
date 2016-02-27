@@ -1,0 +1,24 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="navigatedTo">
+    <page.actionBar>
+        <action-bar title="Details">
+            <navigation-button text="Back"/>
+        </action-bar>
+    </page.actionBar>
+    <stack-layout orientation="vertical">
+        <stack-layout class="details-container"> 
+            <grid-layout columns="90, *" rows="80" class="details-container-inner">
+                <image col="0" src="{{ speaker.pic, '~/images/' + speaker.pic, false }}" />
+                <stack-layout col="1" class="details-container-session">
+                    <label text="{{ name }}" class="h2" />
+                    <label text="{{ 'Presented By: ' + speaker.name }}" class="h2" />
+                    <label text="{{ location }}" class="h2" />
+                </stack-layout>
+            </grid-layout>
+            <stack-layout class="details-container-description">
+                <label text="{{ description }}" class="p" textWrap="true" />
+                <button text="Rate this session" tap="rate" class="rate-button" />
+            </stack-layout>
+        </stack-layout>
+     </stack-layout>
+</Page>
+

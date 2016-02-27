@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "John Papa",
+        "email": "John@disney.com",
+        "pic": "john-papa.png",
+        "desc": "John sits in Florida, and travels a lot as part of the TIE program.   You can read his blogs on backlot and he enjoys Sandwiches and chips at lunch. "
+    },
+    {
+        "id": 2,
+        "name": "Brian Clark",
+        "email": "BrianC@disney.com",
+        "pic": "brian-clark.png",
+        "desc": "Brian sits in Florida, and often commutes around the Orlando area.  You'll find him posting on Yammer, and he'll often order Enchiladas at lunch."
+    },
+    {
+        "id": 3,
+        "name": "Dave Solomon",
+        "email": "DavidS@disney.com",
+        "pic": "dave-solomon.png",
+        "desc": "David sits in Florida.   He participates in multiple hack days when they are offered. He prefers seafood buffets at lunch. "
+    },
+    {
+        "id": 4,
+        "name": "David Elliott",
+        "email": "DavidE@disney.com",
+        "pic": "unknown.png",
+        "desc": "David sits in Florida.     He attended the Star Wars Premiere with WDPRT and posted photos to yammer.   David enjoys giant spiral ham for lunch. "
+    },
+    {
+        "id": 5,
+        "name": "Michael Callaghan",
+        "email": "MichaelC@disney.com",
+        "pic": "unknown.png",
+        "desc": "Michael's office is in Florida.  Originally from New Hampshire, he enjoys Florida weather and not shoveling snow.  Michael enjoys ribeye steaks at lunch."
+    },
+    {
+        "id": 6,
+        "name": "Troy Hamilton",
+        "email": "Troy@disney.com",
+        "pic": "unknown.png",
+        "desc": "Troy's office is in Florida.   It has three walls.  Troy likes hot wings for lunch. "
+    },
+    {
+        "id": 7,
+        "name": "Tilak Mandadi",
+        "email": "Tilak@Disney.com",
+        "pic": "tilak-mandadi.png",
+        "desc": "Tilak is is sponsoring Developer Days as part of our WDPR T Continued Learning Strategy.  "
+    },
+    {
+        "id": 8,
+        "name": "Sean Treat",
+        "email": "Sean@disney.com",
+        "pic": "sean-treat.png",
+        "desc": "Sean volunteered to host the Speed Meeting at lunch during Dev Days and has participated in planning meetings for this year's event."
+    },
+    {
+        "id": 9,
+        "name": "Diane Schaffer",
+        "email": "Diane@disney.com",
+        "pic": "unknown.png",
+        "desc": "Diane is at Kirkman, and has been Executive Sponsor and Champion of many Developer Days. "
+    }
+]

@@ -1,0 +1,12 @@
+<grid-layout class="drawer-content">
+  <stack-layout>
+    <label text="Home" id="home/home" tap="navigate" class="{{ selectedPage == 'home' ? 'selected' : '' }}" />
+    <StackLayout class="hr" />
+    <label text="Day 1 Sessions" id="sessions/sessions" tap="navigate" class="{{ selectedPage == 'about' ? 'selected' : '' }}" />
+    <StackLayout class="hr" />
+    <label text="Day 2 Sessions" id="sessions/sessions" tap="navigate" class="{{ selectedPage == 'settings' ? 'selected' : '' }}" />
+    <StackLayout class="hr" />
+    <label text="Speaker Bios" id="speaker-bios/speaker-bios" tap="navigate" class="{{ selectedPage == 'settings' ? 'selected' : '' }}" />
+    <StackLayout class="hr" />
+  </stack-layout>
+</grid-layout>

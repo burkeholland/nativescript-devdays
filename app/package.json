@@ -1,0 +1,51 @@
+{
+  "name": "nativescript-template-drawer",
+  "main": "app.js",
+  "version": "1.0.1",
+  "author": {
+    "name": "TJ VanToll",
+    "email": "tj.vantoll@gmail.com"
+  },
+  "description": "A NativeScript starter template with drawer navigation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tjvantoll/nativescript-template-drawer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tjvantoll/nativescript-template-drawer/issues"
+  },
+  "homepage": "https://github.com/tjvantoll/nativescript-template-drawer",
+  "dependencies": {
+    "nativescript-statusbar": "^1.0.0",
+    "nativescript-telerik-ui": "^0.2.4",
+    "tns-core-modules": "1.6.0"
+  },
+  "gitHead": "b43131868ceb15be11ca91b8f513700c33eab11b",
+  "_id": "nativescript-template-drawer@1.0.1",
+  "scripts": {},
+  "_shasum": "cc9ceea504267dbe4aff8b635c93010415792639",
+  "_from": "nativescript-template-drawer@latest",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "tjvantoll",
+    "email": "tj.vantoll@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "tjvantoll",
+      "email": "tj.vantoll@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "cc9ceea504267dbe4aff8b635c93010415792639",
+    "tarball": "http://registry.npmjs.org/nativescript-template-drawer/-/nativescript-template-drawer-1.0.1.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-6-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-template-drawer-1.0.1.tgz_1456155291309_0.048401454696431756"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-template-drawer/-/nativescript-template-drawer-1.0.1.tgz"
+}

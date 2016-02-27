@@ -1,0 +1,129 @@
+﻿/* global styles */
+
+Page {
+    background-color: #DFDFDF;
+    color: #6E6E6E;
+    font-weight: bold;
+}
+
+.fa {
+    font-family: 'FontAwesome';
+}
+
+.h2 {
+    font-weight: bold;
+}
+
+.p {
+    color: #8E8E8E;
+    font-size: 14;
+    margin: 2;
+}
+
+.hr {
+    height: 2;
+    background-color: #ECECEC;
+}
+
+.speaker-pic {
+    margin: 5 10 10 -20;
+}
+
+.radio {
+    visibility: collapsed;
+}
+
+/* session list styles */
+
+.main {
+    margin: 10 10 0 10;
+}
+
+.search-box {
+    background-color: white;
+    margin-bottom: 20;
+    padding: 10;
+}
+
+.session {
+    margin: 5 10 5 10;
+}
+
+.session-details {
+    margin: 5 5 0 -15;
+}
+
+/* session details styles */
+
+.details-container {
+    margin: 10;
+    background-color: #ECECEC;
+}
+
+.details-container-session {
+    margin-left: 5;
+}
+
+.details-container-inner {
+    background-color: white;
+    margin: 5 10 8 10;
+    padding: 10 10 10 5;
+}
+
+.details-container-description {
+    padding: 50 20 30 20;
+    background-color: white;
+}
+
+/* rate styles */
+
+.session-rating-grid {
+    background-color: white;
+}
+
+.rate-button {
+    margin-top: 20;
+    horizontal-align: left;
+    width: 130;
+    color: #7A97CF;
+}
+
+.session-rating label {
+    padding: 15;
+    background-color: transparent;
+}
+
+.session-rating-title {
+    background-color: white;    
+    margin-bottom: 5;
+}
+
+.session-rating-title label {
+    text-align: center;
+}
+
+.back-arrow {
+    background-color: white;
+    color: #8e8e8e;
+    font-weight: bold;
+    padding-left: 10;
+    width: 60;
+    horizontal-align: left;
+}
+
+.radio-selected {
+    background-color: #F8F8F8;
+}
+
+/* drawer styles */
+
+.drawer-content {
+  background-color: #fff;
+  color: black;
+  padding-top: 20;
+}
+
+.drawer-content label {
+  font-size: 20;
+  margin: 10 0 15 25;
+}
