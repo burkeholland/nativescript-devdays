@@ -4,6 +4,7 @@ var documents = fs.knownFolders.currentApp();
 
 class FileReader {
     static readJSON(path: string) {
+
         var jsonFile = documents.getFile(path);
         return new Promise<Object>((resolve, reject) => {
             try {

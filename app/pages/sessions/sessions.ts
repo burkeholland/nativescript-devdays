@@ -1,4 +1,4 @@
-import { Page } from 'ui/page';
+import { Page, TextField } from 'ui';
 import { EventData } from 'data/observable';
 import * as frame from 'ui/frame';
 import Drawer = require('nativescript-telerik-ui/sidedrawer');
@@ -26,6 +26,14 @@ class HomePage extends BasePage {
             context: viewModel.sessions.getItem(args.index)
         });
         
+    }
+    
+    search(args: EventData) {
+      
+       let search = <TextField>args.object;
+       
+        // filter the sessions...
+        viewModel.filter(search.text);
     }
 }
 

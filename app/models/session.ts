@@ -1,5 +1,5 @@
 import { Observable } from 'data/observable';
-import Speaker from './Speaker';
+import Speaker from './speaker';
 
 class Session extends Observable {
     name: string;

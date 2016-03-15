@@ -1,8 +1,7 @@
 import { EventData } from 'data/observable';
 import { Page } from 'ui/page';
 import SpeakerService from '../../services/speaker-service';
-import Session from '../../models/Session';
-import Speaker from '../../models/Speaker';
+import Session from '../../models/session';
 import * as frame from 'ui/frame';
 
 let session;

@@ -26,6 +26,10 @@ Page {
 }
 
 .speaker-pic {
+    margin: 5 10 10 0;
+}
+
+.speaker-pic-ios {
     margin: 5 10 10 -20;
 }
 
@@ -39,6 +43,11 @@ Page {
     margin: 10 10 0 10;
 }
 
+.sessions-list {
+    margin: 0;
+    padding: 0;
+}
+
 .search-box {
     background-color: white;
     margin-bottom: 20;
@@ -47,10 +56,15 @@ Page {
 
 .session {
     margin: 5 10 5 10;
+    background-color: white;
 }
 
 .session-details {
     margin: 5 5 0 -15;
+}
+
+.no-results {
+    margin: 0 10 0 10;
 }
 
 /* session details styles */
@@ -126,4 +140,11 @@ Page {
 .drawer-content label {
   font-size: 20;
   margin: 10 0 15 25;
+}
+
+/* empty styles */
+.empty {
+    text-align: center;
+    font-size: 32;
+    margin: 20;
 }

@@ -19,13 +19,13 @@
     <drawer:rad-side-drawer.mainContent>
 
       <!-- Home page contents -->
-      <stack-layout class="main" stretch="fill">
+      <stack-layout class="main">
         <grid-layout columns="*" rows="auto, *">
-            <text-field hint="search" class="search-box" row="0"/>
-            <list-view items="{{ sessions }}" row="1" itemTap="viewSessionDetails">
+            <text-field hint="&#xf002; search" class="fa search-box" row="0" returnPress="search" returnKeyType="search" />
+            <list-view items="{{ sessions }}" row="1" itemTap="viewSessionDetails" class="sessions-list" visibility="{{ noResults ? 'collapsed' : 'visible' }}">
                 <list-view.itemTemplate>
                     <grid-layout columns="100, *" rows="auto" class="session">                   
-                        <image height="75" width="75" col="0" src="{{ speaker.pic, '~/images/' + speaker.pic, false }}" class="speaker-pic"/>
+                        <image height="75" width="75" col="0" src="{{ speaker.pic, '~/images/' + speaker.pic, false }}" ios:class="speaker-pic-ios"/>
                         <stack-layout col="1" class="session-details">
                             <label text="{{ name }}" class="h2" />
                             <label text="{{ speaker.name }}" class="p"/>
@@ -34,6 +34,9 @@
                     </grid-layout>
                 </list-view.itemTemplate>
             </list-view>
+            <stack-layout visibility="{{ noResults ? 'visible' : 'collapsed' }}" row="1">
+                <label text="No results. Try searching for a different term" class="no-results" />
+            </stack-layout>
         </grid-layout>
     </stack-layout>
 

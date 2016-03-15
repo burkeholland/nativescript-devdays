@@ -4,7 +4,7 @@
       loaded="loaded" >
 
   <page.actionBar>
-    <action-bar title="Session List - Day 1">
+    <action-bar title="Speaker Bios">
       <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
       <action-bar.actionItems>
         <ios>
@@ -18,8 +18,8 @@
     <drawer:rad-side-drawer.mainContent>
 
       <!-- Home page contents -->
-      <stack-layout class="main">
-        <label text="Disney DevDays Speaker Bios" />
+      <stack-layout class="empty">
+        <label text="Disney DevDays Speaker Bios" textWrap="true" />
       </stack-layout>
 
     </drawer:rad-side-drawer.mainContent>

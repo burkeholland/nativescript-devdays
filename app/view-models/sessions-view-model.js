@@ -1,17 +1,36 @@
 var observable_1 = require('data/observable');
+var observable_array_1 = require('data/observable-array');
 var session_service_1 = require('../services/session-service');
 var ViewModel = (function (_super) {
     __extends(ViewModel, _super);
     function ViewModel() {
         var _this = this;
         _super.call(this);
+        this.noResults = false;
         // get the list of sessions
         session_service_1.default.GetSessions().then(function (sessions) {
+            _this._sessions = sessions;
             _this.sessions = sessions;
         });
     }
+    ViewModel.prototype.filter = function (term) {
+        if (term.trim().length > 0) {
+            var filtered = this._sessions.filter(function (item) {
+                return (item.name.indexOf(term.trim()) > 0 || item.description.indexOf(term.trim()) > 0);
+            });
+            this.set("sessions", new observable_array_1.ObservableArray(filtered));
+            console.log(filtered.length);
+            this.set('noResults', filtered.length == 0);
+        }
+        else {
+            this.clearFilter();
+        }
+    };
+    ViewModel.prototype.clearFilter = function () {
+        this.set('sessions', this._sessions);
+    };
     return ViewModel;
 })(observable_1.Observable);
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = ViewModel;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2Vzc2lvbnMtdmlldy1tb2RlbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInNlc3Npb25zLXZpZXctbW9kZWwudHMiXSwibmFtZXMiOlsiVmlld01vZGVsIiwiVmlld01vZGVsLmNvbnN0cnVjdG9yIl0sIm1hcHBpbmdzIjoiQUFBQSwyQkFBc0MsaUJBQWlCLENBQUMsQ0FBQTtBQUd4RCxnQ0FBMkIsNkJBQTZCLENBQUMsQ0FBQTtBQUV6RDtJQUF3QkEsNkJBQVVBO0lBRzlCQTtRQUhKQyxpQkFZQ0E7UUFST0EsaUJBQU9BLENBQUNBO1FBRVJBLDJCQUEyQkE7UUFDM0JBLHlCQUFjQSxDQUFDQSxXQUFXQSxFQUFFQSxDQUFDQSxJQUFJQSxDQUFDQSxVQUFDQSxRQUFRQTtZQUN2Q0EsS0FBSUEsQ0FBQ0EsUUFBUUEsR0FBR0EsUUFBUUEsQ0FBQ0E7UUFDN0JBLENBQUNBLENBQUNBLENBQUNBO0lBRVBBLENBQUNBO0lBQ0xELGdCQUFDQTtBQUFEQSxDQUFDQSxBQVpELEVBQXdCLHVCQUFVLEVBWWpDO0FBRUQ7a0JBQWUsU0FBUyxDQUFDIn0=
+//# sourceMappingURL=sessions-view-model.js.map
