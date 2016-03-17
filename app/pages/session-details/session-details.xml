@@ -16,7 +16,7 @@
             </grid-layout>
             <stack-layout class="details-container-description">
                 <label text="{{ description }}" class="p" textWrap="true" />
-                <button text="Rate this session" tap="rate" class="rate-button" />
+                <button text="Rate this session" tap="rate" class="rate-button" android:class="rate-button-android" />
             </stack-layout>
         </stack-layout>
      </stack-layout>

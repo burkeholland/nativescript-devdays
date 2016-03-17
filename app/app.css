@@ -25,8 +25,8 @@ Page {
     background-color: #ECECEC;
 }
 
-.speaker-pic {
-    margin: 5 10 10 0;
+.speaker-pic-android {
+    margin: 5 15 10 0;
 }
 
 .speaker-pic-ios {
@@ -102,6 +102,18 @@ Page {
     color: #7A97CF;
 }
 
+.rate-button-android {
+    margin-top: 20;
+    horizontal-align: left;
+    width: 160;
+    color: #7A97CF;
+    background-color: white;
+    border-color: white;
+    border-width: 1;
+    padding: 0;
+    margin-left: -10;
+}
+
 .session-rating label {
     padding: 15;
     background-color: transparent;
@@ -123,6 +135,14 @@ Page {
     padding-left: 10;
     width: 60;
     horizontal-align: left;
+}
+
+.back-arrow-android {
+   background-color: white;
+   width: 70;
+   border-color: white;
+   border-width: 1;
+   horizontal-align: left;
 }
 
 .radio-selected {

@@ -17,7 +17,7 @@
             <stack-layout class="session-rating">
                 <grid-layout columns="*" rows="auto" class="session-rating-title">
                     <label text="Session Eval" col="0" />
-                    <Button text="&#xf060;  OK" col="0" class="fa back-arrow" tap="back" />
+                    <Button text="&#xf060;  OK" col="0" ios:class="fa back-arrow" android:class="fa back-arrow-android" tap="back" />
                 </grid-layout>
                 <rate:rating-grid />
             </stack-layout>
